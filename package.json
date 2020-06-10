@@ -1,0 +1,29 @@
+{
+  "name": "juris-builder",
+  "version": "1.0.0",
+  "description": "A lightning quick, client-side document assembly solution.",
+  "main": "index.js",
+  "repository": "https://github.com/KonstantinSolutions/juris-builder.git",
+  "author": "Juris, PBC",
+  "license": "MIT",
+  "scripts": {
+    "examples": "browser-sync start --server --files \"examples,dist\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "prop-types": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  }
+}
